@@ -1,6 +1,6 @@
 // API 키를 직접 코드에 선언
 const API_KEY = '8b2f3e55b4c441ca9a736559c455a49d';
-const FIXED_SCHOOL_NAME = '광양하이텍고등학교';
+const FIXED_SCHOOL_NAME = '진주기계공업고등학교';
 
 // 급식 정보 조회 함수
 async function fetchMeal(date) {
