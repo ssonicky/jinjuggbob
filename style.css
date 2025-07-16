@@ -21,11 +21,16 @@ body {
     position: relative;
 }
 .header-img {
-    width: 100%;
-    border-radius: 18px;
-    margin-bottom: 18px;
-    box-shadow: 0 4px 24px rgba(255,182,193,0.25);
-    border: 2px solid #f8bbd0;
+    display: block;
+    margin: 0 auto 24px auto;
+    width: 220px;
+    height: 220px;
+    object-fit: contain;
+    background: linear-gradient(135deg, #f8bbd0 40%, #e1bee7 100%);
+    border-radius: 50%;
+    box-shadow: 0 8px 32px 0 rgba(255,182,193,0.35), 0 0 0 8px #fff6fc;
+    border: 3px dashed #f8bbd0;
+    padding: 12px;
 }
 h1 {
     text-align: center;
